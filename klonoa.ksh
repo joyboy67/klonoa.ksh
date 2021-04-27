@@ -1,18 +1,21 @@
 #!/bin/ksh
 
-OPENTOONZ='balbla'
+OPENTOONZ='https://github.com/morevnaproject-org/opentoonz'
 ALPINE=''
 MINIX=''
 LIENSUTILES=('https://framalibre.org/annuaires/cr%C3%A9ation', 'https://morevnaproject.org/')
+JPEGTURBO=''
+SuperLU=''
 
 echo ***Installation des paquets***
 
 pkg_add ruby python node \ 
         wget git \
-        zsh tcsh
+        zsh tcsh \
+        cmake pkgconf boost qt5 lz4 usb lzo2 png jpeg glew freeglut freetype json-c mypaint opencv gsl blas
 
 cd /usr/bin
-wget $OPENTOONZ
+git clone $OPENTOONZ
 wget $ALPINE
 
 gem install pry
