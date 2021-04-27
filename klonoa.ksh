@@ -2,6 +2,8 @@
 
 OPENTOONZ='balbla'
 ALPINE=''
+MINIX=''
+LIENSUTILES=('https://framalibre.org/annuaires/cr%C3%A9ation', 'https://morevnaproject.org/')
 
 echo ***Installation des paquets***
 
