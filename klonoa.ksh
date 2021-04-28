@@ -23,13 +23,13 @@ git clone $OPENTOONZ
 wget $ALPINE
 
 cd /lib
-git clone $9LIB && ./INSTALL
+git clone $9LIB 9lib && sh 9lib/INSTALL
 
 cd /lib/images
-git clone $MINIX 
+git clone $MINIX minix
 
 cd ../dos
-git clone $FREEDOS
+git clone $FREEDOS freedos
 
 gem install pry
 gem install rails
