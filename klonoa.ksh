@@ -10,7 +10,7 @@ JPEGTURBO=''
 SuperLU=''
 LIONSBOOK='http://www.lemis.com/grog/Documentation/Lions/book.pdf'
 LIENSUTILES=('https://framalibre.org/annuaires/cr%C3%A9ation', 'https://www.openbsd.org/', 'https://wiki.openbsd.fr.eu.org/doku.php/tips/kit-survie',
-             'https://www.3hg.fr/', 'https://morevnaproject.org/', 'http://www.minix3.org/', 'https://9fans.github.io/plan9port/')
+             'https://www.3hg.fr/', 'https://morevnaproject.org/', 'http://www.minix3.org/', 'https://openports.se/plan9', 'https://9fans.github.io/plan9port/')
 
 echo ***Installation des paquets***
 
