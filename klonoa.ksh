@@ -21,7 +21,7 @@ pkg_add ruby python node \
 
 cd /usr/bin
 git clone $OPENTOONZ
-wget $ALPINE
+ftp -o $ALPINE alpine
 
 cd /lib
 git clone $9LIB 9lib && sh 9lib/INSTALL
