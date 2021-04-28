@@ -24,7 +24,7 @@ wget $ALPINE
 cd /lib
 git clone $9LIB && ./INSTALL
 
-cd /lib/images
+cd /lib/images/dos
 git clone $FREEDOS
 
 gem install pry
