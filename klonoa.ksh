@@ -5,7 +5,8 @@ ALPINE=''
 MINIX=''
 PLAN9=''
 9LIB='https://github.com/9fans/plan9port'
-LIENSUTILES=('https://framalibre.org/annuaires/cr%C3%A9ation', 'https://morevnaproject.org/')
+FREEDOS='https://github.com/FDOS/kernel'
+LIENSUTILES=('https://framalibre.org/annuaires/cr%C3%A9ation', 'https://morevnaproject.org/', 'https://9fans.github.io/plan9port/')
 JPEGTURBO=''
 SuperLU=''
 
@@ -19,6 +20,12 @@ pkg_add ruby python node \
 cd /usr/bin
 git clone $OPENTOONZ
 wget $ALPINE
+
+cd /lib
+git clone $9LIB && ./INSTALL
+
+cd /lib/images
+git clone $FREEDOS
 
 gem install pry
 gem install rails
