@@ -1,2 +1,3 @@
 # klonoa.ksh
-Fichier personalisé pour OpenBSD
+Script de personalisation pour OpenBSD<-Isoptop
+Plan9 + OpenBSD = <3
