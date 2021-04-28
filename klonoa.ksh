@@ -19,7 +19,7 @@ pkg_add ruby python node \
         9libs plan9port 9menu wily sam
         zsh tcsh \
         git cmake pkgconf boost qt5 lz4 usb lzo2 png jpeg glew freeglut freetype json-c mypaint opencv gsl blas \
-        blender
+        blender octave
 
 cd /usr/bin
 git clone $OPENTOONZ
