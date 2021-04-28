@@ -4,6 +4,7 @@ OPENTOONZ='https://github.com/morevnaproject-org/opentoonz'
 ALPINE=''
 MINIX=''
 PLAN9=''
+9LIB='https://github.com/9fans/plan9port'
 LIENSUTILES=('https://framalibre.org/annuaires/cr%C3%A9ation', 'https://morevnaproject.org/')
 JPEGTURBO=''
 SuperLU=''
