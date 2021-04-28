@@ -6,11 +6,11 @@ MINIX='https://github.com/Stichting-MINIX-Research-Foundation/minix'
 PLAN9=''
 9LIB='https://github.com/9fans/plan9port'
 FREEDOS='https://github.com/FDOS/kernel'
-LIENSUTILES=('https://framalibre.org/annuaires/cr%C3%A9ation', 'https://www.openbsd.org/', 'https://www.3hg.fr/', 'https://morevnaproject.org/', 
-             'http://www.minix3.org/', 'https://9fans.github.io/plan9port/')
 JPEGTURBO=''
 SuperLU=''
 LIONSBOOK='http://www.lemis.com/grog/Documentation/Lions/book.pdf'
+LIENSUTILES=('https://framalibre.org/annuaires/cr%C3%A9ation', 'https://www.openbsd.org/', 'https://www.3hg.fr/', 'https://morevnaproject.org/', 
+             'http://www.minix3.org/', 'https://9fans.github.io/plan9port/')
 
 echo ***Installation des paquets***
 
