@@ -2,6 +2,7 @@
 
 OPENTOONZ='https://github.com/morevnaproject-org/opentoonz'
 ALPINE=''
+KOLIBRIOS=''
 MINIX='https://github.com/Stichting-MINIX-Research-Foundation/minix'
 PLAN9=''
 9LIB='https://github.com/9fans/plan9port'
