@@ -1,6 +1,7 @@
 # klonoa.ksh
-Script de personalisation pour OpenBSD + Isoptop
 
-Pour les entrepreneurs, créateurs, artistes & geeks ⚡
+Script de personalisation orienté FAO (Fabrication Assisté Par Ordinateur) pour OpenBSD
 
-Plan9 + OpenBSD = <3
+Pour les créateurs, entrepreneurs, artistes & geeks ⚡
+
+OpenBSD & Plan9 = <3
