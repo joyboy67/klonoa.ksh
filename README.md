@@ -8,6 +8,6 @@ OpenBSD & Plan9 = <3
 
 ## Usage
 
-ftp https://github.com/joyboy67/klonoa.ksh
+> ftp https://github.com/joyboy67/klonoa.ksh
 
-./klonoa.ksh
+> ./klonoa.ksh
