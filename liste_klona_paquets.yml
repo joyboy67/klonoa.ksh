@@ -11,6 +11,9 @@
 
 -node_paquet:
   -yarn
+  -nuxt_js
+  -vue
+  -netlistsvg
 
 -gem:
   -nokogiri
