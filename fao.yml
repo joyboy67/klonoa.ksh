@@ -1,0 +1,39 @@
+-languages:
+  - ruby (pry)
+  - node
+  - lisp #scheme?
+  - rust
+  - perl
+  - elixir
+  - python
+
+-node_paquet:
+  -yarn
+
+-gem:
+  -
+
+
+-extentions:
+  -emacs: platform_io
+
+
+-2D:
+  -gimp
+  -inskape
+
+-3D:
+  -blender
+  -opentoonz
+
+-Electronique:
+  -kicad
+
+-ReverseEngering:
+  -
+
+-Securite:
+  -
+
+-Misc:
+  -image_magick
