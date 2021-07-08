@@ -1,8 +1,7 @@
 #!/bin/ksh
 
+user=$(whoiam)
 ftp https://framagit.org/3hg/isotop/ isotop/
-
-
 
 ALPINE=''
 KOLIBRIOS=''
@@ -24,11 +23,15 @@ LIENSUTILES=('https://framalibre.org/annuaires/cr%C3%A9ation', 'https://www.open
 
 echo ***Installation des paquets***
 
-pkg_add ruby node \ 
-        9libs plan9port 9menu wily sam
-        zsh tcsh \
-        git cmake pkgconf boost qt5 lz4 usb lzo2 png jpeg glew freeglut freetype json-c mypaint opencv gsl blas \
-        blender octave
+pkg_add -vmzl paquets.txt
+
+gem install pry
+gem install nokogiri
+
+npm -g install yarn
+yarn global add nuxt
+yarn global add vue
+yarn global add netlistsvg #https://github.com/nturley/netlistsvg
 
 cd /usr/bin
 git clone $OPENTOONZ
@@ -36,18 +39,9 @@ ftp -o $ALPINE alpine
 
 cd /lib/images
 git clone $MINIX minix
-
-cd ../dos
 git clone $FREEDOS freedos
 
-gem install pry
-gem install nokogiri
-
-npm -g install yarn
-
-yarn global add nuxt
-yarn global add vue
-yarn global add netlistsvg #https://github.com/nturley/netlistsvg
+cd ~
 
 for i in $LIENSUTILES
 do
