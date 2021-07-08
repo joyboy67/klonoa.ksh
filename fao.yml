@@ -1,3 +1,5 @@
+#FROM OpenBSD + Isotop
+
 -languages:
   - ruby (pry)
   - node
@@ -39,7 +41,7 @@
 -Electronique:
   -kicad
 
--RetroEngenierie:
+-RetroIngenierie:
   -
 
 -Securite:
