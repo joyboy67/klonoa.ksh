@@ -11,13 +11,16 @@
   -yarn
 
 -gem:
-  -
+  -nokogiri
 
 
 -extentions:
   -emacs: platform_io
 
-
+-Web:
+  -iceweasel
+  -nuxt_js
+  
 -2D:
   -gimp
   -inskape
@@ -25,15 +28,24 @@
 -3D:
   -blender
   -opentoonz
+  
+-Jeux_Video:
+  -godot
+  -emulation: [gc, gba, snes, n64, ps1, ps2]
+  
+-CalculNumerique:
+  -octave
 
 -Electronique:
   -kicad
 
--ReverseEngering:
+-RetroEngenierie:
   -
 
 -Securite:
-  -
+  -nmap
+  -wireshark
 
 -Misc:
   -image_magick
+  -SE: [kolibri_os]
