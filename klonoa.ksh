@@ -2,15 +2,21 @@
 
 ftp https://framagit.org/3hg/isotop/ isotop/
 
-OPENTOONZ='https://github.com/morevnaproject-org/opentoonz'
+
+
 ALPINE=''
 KOLIBRIOS=''
 MINIX='https://github.com/Stichting-MINIX-Research-Foundation/minix'
+FREEDOS='https://github.com/FDOS/kernel'
+
 PLAN9=''
 9LIB='https://github.com/9fans/plan9port'
-FREEDOS='https://github.com/FDOS/kernel'
+
 JPEGTURBO=''
 SuperLU=''
+
+OPENTOONZ='https://github.com/morevnaproject-org/opentoonz'
+
 LIONSBOOK='http://www.lemis.com/grog/Documentation/Lions/book.pdf'
 LIENSUTILES=('https://framalibre.org/annuaires/cr%C3%A9ation', 'https://www.openbsd.org/', 'https://wiki.openbsd.fr.eu.org/doku.php/tips/kit-survie',
              'https://www.3hg.fr/', 'https://morevnaproject.org/', 'http://www.minix3.org/', 'https://openports.se/plan9', 'https://9fans.github.io/plan9port/', 
@@ -35,11 +41,13 @@ cd ../dos
 git clone $FREEDOS freedos
 
 gem install pry
+gem install nokogiri
 
 npm -g install yarn
 
 yarn global add nuxt
 yarn global add vue
+yarn global add netlistsvg #https://github.com/nturley/netlistsvg
 
 for i in $LIENSUTILES
 do
