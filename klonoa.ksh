@@ -56,4 +56,7 @@ done
 
 wget $LIONSBOOK /usr/desktop
 
+sh isotop/isotop-user.sh
+su root isotop/isotop-root.sh
+
 echo ***Terminé!***
