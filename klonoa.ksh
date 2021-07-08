@@ -21,7 +21,7 @@ LIENSUTILES=('https://framalibre.org/annuaires/cr%C3%A9ation', 'https://www.open
              'https://www.3hg.fr/', 'https://morevnaproject.org/', 'http://www.minix3.org/', 'https://openports.se/plan9', 'https://9fans.github.io/plan9port/', 
              'http://9front.org/', 'https://pspodcasting.net/dan/blog/2019/plan9_desktop.html')
 
-echo ***Installation des paquets***
+echo *** Installation des paquets ***
 
 pkg_add -vmzl paquets.txt
 
@@ -53,4 +53,4 @@ wget $LIONSBOOK /usr/desktop
 sh isotop/isotop-user.sh
 su root isotop/isotop-root.sh
 
-echo ***Terminé!***
+echo *** Installation de Klonoa terminé! ***
