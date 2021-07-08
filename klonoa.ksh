@@ -48,7 +48,7 @@ do
         echo i >> /usr/desktop/liens_utiles.txt
 done
 
-wget $LIONSBOOK /usr/desktop
+wget $LIONSBOOK ~/desktop
 
 sh isotop/isotop-user.sh
 su root isotop/isotop-root.sh
