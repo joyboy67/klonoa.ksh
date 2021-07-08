@@ -1,5 +1,7 @@
 #!/bin/ksh
 
+ftp https://framagit.org/3hg/isotop/ isotop/
+
 OPENTOONZ='https://github.com/morevnaproject-org/opentoonz'
 ALPINE=''
 KOLIBRIOS=''
@@ -16,7 +18,7 @@ LIENSUTILES=('https://framalibre.org/annuaires/cr%C3%A9ation', 'https://www.open
 
 echo ***Installation des paquets***
 
-pkg_add ruby python node \ 
+pkg_add ruby node \ 
         9libs plan9port 9menu wily sam
         zsh tcsh \
         git cmake pkgconf boost qt5 lz4 usb lzo2 png jpeg glew freeglut freetype json-c mypaint opencv gsl blas \
@@ -33,7 +35,6 @@ cd ../dos
 git clone $FREEDOS freedos
 
 gem install pry
-gem install rails
 
 npm -g install yarn
 
