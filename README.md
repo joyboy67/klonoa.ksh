@@ -1,6 +1,6 @@
 # klonoa.ksh
 
-Script de personalisation orienté #FAO (Fabrication Assisté par Ordinateur) pour OpenBSD
+Script de personalisation orienté #FAO (Fabrication Assistée par Ordinateur) pour OpenBSD
 
 Pour les créateurs, entrepreneurs, artistes & geeks ⚡
 
