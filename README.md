@@ -15,3 +15,7 @@ ftp https://github.com/joyboy67/klonoa.ksh
 cd klonoa
 ./klonoa.ksh
 ```
+
+## Licence
+
+> Licence BSD
