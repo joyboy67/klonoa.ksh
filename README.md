@@ -10,5 +10,6 @@ OpenBSD & Plan9 = <3
 
 ```
 ftp https://github.com/joyboy67/klonoa.ksh
+cd klonoa
 ./klonoa.ksh
 ```
