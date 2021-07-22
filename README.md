@@ -1,6 +1,6 @@
 # klonoa.ksh
 
-Script de personalisation orienté #FAO (Fabrication Assistée par Ordinateur), Web/Bureautique [*Isotop] et Sécurité pour OpenBSD
+Script de personalisation orienté #FAO (Fabrication Assistée par Ordinateur), #Web/Bureautique [*Isotop] et #Sécurité pour OpenBSD
 
 Pour les créateurs, entrepreneurs, artistes & geeks ⚡
 
