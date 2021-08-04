@@ -1,13 +1,12 @@
 #FROM OpenBSD + Isotop
 
 -languages:
-  - ruby (pry)
+  - ruby (pry) #crystal / zig / cuda / opencl ?
   - node
   - lisp #scheme?
-  - rust
   - perl
   - elixir
-  - python
+  - [python, julia]
 
 -node_paquet:
   -yarn
@@ -40,6 +39,7 @@
   
 -CalculNumerique:
   -octave
+  -julia
 
 -Electronique:
   -kicad
@@ -47,10 +47,20 @@
 -RetroIngenierie:
   -
 
+-Collaboration/Versioning:
+  -git
+  -mattermost
+  -signal
+
 -Securite:
   -nmap
   -wireshark
+  -metasploit
+  -hydra
 
 -Misc:
   -image_magick
+  -nasm
+  -bochs?
+  -qemu?
   -SE: [kolibri_os]
