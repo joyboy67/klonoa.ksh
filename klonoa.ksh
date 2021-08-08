@@ -7,6 +7,7 @@ ALPINE=''
 KOLIBRIOS=''
 MINIX='https://github.com/Stichting-MINIX-Research-Foundation/minix'
 FREEDOS='https://github.com/FDOS/kernel'
+FREERTOS = 'https://github.com/FreeRTOS/FreeRTOS'
 
 PLAN9=''
 9LIB='https://github.com/9fans/plan9port'
