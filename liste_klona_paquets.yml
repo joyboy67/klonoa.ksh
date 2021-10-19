@@ -22,8 +22,8 @@
   -emacs: platform_io
 
 -Web:
-  -iceweasel
-  -nuxt_js
+  -onion_browser
+  -nuxt_js (node paquet)
   
 -2D:
   -gimp
@@ -32,6 +32,7 @@
 -3D:
   -blender
   -opentoonz
+  -openscad
   
 -Jeux_Video:
   -godot
@@ -39,7 +40,7 @@
   
 -CalculNumerique:
   -octave
-  -julia
+  -julia (langage)
 
 -Electronique:
   -kicad
