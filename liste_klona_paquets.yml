@@ -1,6 +1,6 @@
 #FROM OpenBSD + Isotop
 
--languages:
+-langages:
   - ruby (pry) #crystal / zig / cuda / opencl ?
   - node
   - lisp #scheme?
@@ -38,7 +38,7 @@
   -godot
   -emulation: [gc, gba, snes, n64, ps1, ps2]
   
--CalculNumerique:
+-Calcul_Numerique:
   -octave
   -julia (langage)
 
