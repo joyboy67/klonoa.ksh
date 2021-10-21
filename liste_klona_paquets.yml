@@ -74,4 +74,4 @@
   -nasm
   -bochs?
   -qemu?
-  -SE: [minix, kolibri_os, plan9]
+  -SE: [minix, kolibri_os, plan9]                                                     #190Mo, #?, #?
