@@ -29,6 +29,7 @@
 -2D:
   -gimp
   -inskape
+  -terraformer                                                                             #67Ko
 
 -3D:
   -blender
@@ -52,6 +53,7 @@
 
 -RetroIngenierie:
   -MetroBoy                                                                                               #81Mo
+  -TICS                                                                                                   #443Ko
 
 -Collaboration/Versioning:
   -git                                                                                                    #173Mo
