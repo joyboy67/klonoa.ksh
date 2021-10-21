@@ -10,12 +10,13 @@
 
 -node_paquet:
   -yarn
-  -nuxt_js
+  -nuxt_js                                                                                 #42Mo
   -vue
   -netlistsvg
 
 -gem:
   -nokogiri
+  -rqrcode                                                                                  #535Ko
 
 -extentions:
   -emacs: platform_io
@@ -34,7 +35,8 @@
   -openscad
   
 -Son/Musique:
-  -
+  -orca
+  -pilot (node paquet)
   
 -Jeux_Video:
   -godot
@@ -48,7 +50,7 @@
   -kicad
 
 -RetroIngenierie:
-  -
+  -MetroBoy                                                                                               #81Mo
 
 -Collaboration/Versioning:
   -git
