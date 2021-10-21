@@ -1,4 +1,5 @@
 #FROM OpenBSD + Isotop
+#Total= XGo
 
 -langages:
   - ruby (pry) #crystal / zig / cuda / opencl ?
@@ -39,7 +40,7 @@
   -pilot (node paquet)
   
 -Jeux_Video:
-  -godot
+  -godot                                                                              #676Mo
   -emulation: [gc, gba, snes, n64, ps1, ps2]
   
 -Calcul_Numerique:
