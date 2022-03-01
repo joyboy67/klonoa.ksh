@@ -47,3 +47,4 @@ neofetch--
 duf--
 feh--
 postgresql-server--
+electron--
