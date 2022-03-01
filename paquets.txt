@@ -41,7 +41,7 @@ tor-browser--
 kicad--
 elixir--
 nasm--
-boschs--
+bochs--
 qemu--
 neofetch--
 duf--
