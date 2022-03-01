@@ -43,3 +43,6 @@ elixir--
 nasm--
 boschs--
 qemu--
+neofetch--
+duf--
+feh--
