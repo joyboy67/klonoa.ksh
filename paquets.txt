@@ -34,3 +34,4 @@ geany--
 nmap--
 wireshark--
 kicad--
+elixir--
