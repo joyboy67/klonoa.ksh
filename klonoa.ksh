@@ -23,7 +23,7 @@ LIENSUTILES=('https://framalibre.org/annuaires/cr%C3%A9ation', 'https://www.open
 
 echo *** Installation des paquets ***
 
-pkg_add -vmzl paquets.txt
+pkg_add -vmzl ./klonoa/paquets.txt
 git clone $OPENTOONZ ./bin/OpenToonz
 git clone $ORCA ./bin/Orca-c
 cd bin/Orca-c && make && mv build/orca ~/bin/orca && cd ~ 
