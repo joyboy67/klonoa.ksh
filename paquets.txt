@@ -36,6 +36,8 @@ vim--
 geany--
 nmap--
 wireshark--
+tor--
+tor-browser--
 kicad--
 elixir--
 nasm--
