@@ -14,7 +14,7 @@ OpenBSD & Isotop* & Klonoa (& Plan9) = <3
 ```
 git clone git://github.com/joyboy67/klonoa.ksh.git klonoa
 cd klonoa
-./klonoa.ksh
+. klonoa.ksh
 ```
 
 ## Licence
