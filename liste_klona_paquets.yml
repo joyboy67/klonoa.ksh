@@ -23,12 +23,12 @@
   -emacs: platform_io
 
 -Web:
-  -onion_browser
+  -tor_browser
   -nuxt_js (node paquet)
   
 -2D:
   -gimp
-  -inskape
+  -inkscape
   -terraformer                                                                             #67Ko
 
 -3D:
