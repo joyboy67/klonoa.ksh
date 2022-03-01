@@ -25,6 +25,9 @@ gsl--
 blas--
 blender--
 octave--
+gimp--
+inkscape--
+openscad--
 vlc--
 deluge--
 libreoffice--
@@ -35,3 +38,6 @@ nmap--
 wireshark--
 kicad--
 elixir--
+nasm--
+boschs--
+qemu--
