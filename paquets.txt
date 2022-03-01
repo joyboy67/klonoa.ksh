@@ -1,12 +1,12 @@
+git--
 ruby--
 node--
+cmake--
 9libs--
 plan9port--
 9menu--
 wily--
 sam--
-git--
-cmake--
 pkgconf--
 boost--
 qt5--
