@@ -40,6 +40,7 @@ yarn global add netlistsvg #https://github.com/nturley/netlistsvg
 
 echo *** misc. ***
 
+ftp $LIONSBOOK
 git clone $MINIX ./images
 git clone $FREEDOS ./images
 
@@ -48,7 +49,5 @@ for i in $LIENSUTILES
 do
         echo i >> liens_utiles.txt
 done
-
-ftp $LIONSBOOK
 
 echo *** Klonoa terminé! ***
