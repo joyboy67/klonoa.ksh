@@ -48,3 +48,4 @@ duf--
 feh--
 postgresql-server--
 electron--
+portmidi--
