@@ -25,3 +25,9 @@ gsl--
 blas--
 blender--
 octave--
+vlc--
+deluge--
+libreoffice--
+emacs--
+vim--
+geany--
