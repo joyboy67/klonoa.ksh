@@ -27,16 +27,12 @@ git clone $OPENTOONZ ./bin
 
 echo *** Installation des gems ruby ***
 
-gem install pry
-gem install nokogiri
+gem install pry nokogiri metasploit-framework metasploit-payloads
 
 echo *** Instalation des paquets nodejs ***
 
-npm -g install npm
-npm -g install yarn
-yarn global add vue
-yarn global add nuxt
-yarn global add netlistsvg #https://github.com/nturley/netlistsvg
+npm -g install npm yarn
+yarn global add vue nuxt netlistsvg #https://github.com/nturley/netlistsvg
 
 echo *** misc. ***
 
