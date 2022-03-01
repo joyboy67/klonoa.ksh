@@ -1,13 +1,14 @@
 # klonoa.ksh
 
-Script de personnalisation orienté #FAO (Fabrication Assistée par Ordinateur) [et #Sécurité] pour OpenBSD
+Script de personnalisation orienté #FAO [Fabrication Assistée par Ordinateur] (et Sécurité) pour OpenBSD
 
 Pour les créateurs, entrepreneurs, artistes & geeks ⚡
 
-OpenBSD & Isotop* & Klonoa (& Plan9) = <3
+OpenBSD** & Isotop* & Klonoa (& Plan9) = <3
 
 
 *https://www.3hg.fr/Isos/isotop/
+**https://www.openbsd.org/plus.html
 
 ## Usage
 
