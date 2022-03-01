@@ -1,13 +1,12 @@
 #!/bin/ksh
 
 user=$(whoiam)
-ftp https://framagit.org/3hg/isotop/ isotop/
 
 ALPINE=''
 KOLIBRIOS=''
-MINIX='https://github.com/Stichting-MINIX-Research-Foundation/minix'
-FREEDOS='https://github.com/FDOS/kernel'
-FREERTOS = 'https://github.com/FreeRTOS/FreeRTOS'
+MINIX='git://github.com/Stichting-MINIX-Research-Foundation/minix.git'
+FREEDOS='git://github.com/FDOS/kernel.git'
+FREERTOS = 'git://github.com/FreeRTOS/FreeRTOS.git'
 
 PLAN9=''
 9LIB='https://github.com/9fans/plan9port'
@@ -15,7 +14,7 @@ PLAN9=''
 JPEGTURBO=''
 SuperLU=''
 
-OPENTOONZ='https://github.com/morevnaproject-org/opentoonz'
+OPENTOONZ='git://github.com/morevnaproject-org/opentoonz.git'
 
 LIONSBOOK='http://www.lemis.com/grog/Documentation/Lions/book.pdf'
 LIENSUTILES=('https://framalibre.org/annuaires/cr%C3%A9ation', 'https://www.openbsd.org/', 'https://wiki.openbsd.fr.eu.org/doku.php/tips/kit-survie',
@@ -29,29 +28,27 @@ pkg_add -vmzl paquets.txt
 gem install pry
 gem install nokogiri
 
+npm -g install npm
 npm -g install yarn
 yarn global add nuxt
 yarn global add vue
 yarn global add netlistsvg #https://github.com/nturley/netlistsvg
 
-cd /usr/bin
+cd ~/bin
 git clone $OPENTOONZ
-ftp -o $ALPINE alpine
 
-cd /lib/images
-git clone $MINIX minix
-git clone $FREEDOS freedos
+
+cd ~/images
+git clone $MINIX
+git clone $FREEDOS
 
 cd ~
 
 for i in $LIENSUTILES
 do
-        echo i >> /usr/desktop/liens_utiles.txt
+        echo i >> ~/liens_utiles.txt
 done
 
-wget $LIONSBOOK ~/desktop
-
-sh isotop/isotop-user.sh
-su root isotop/isotop-root.sh
+ftp $LIONSBOOK ~
 
 echo *** Installation de Klonoa terminé! ***
