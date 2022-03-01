@@ -4,7 +4,7 @@ cd ~
 mkdir images
 mkdir bin
 
-ALPINE=''
+ALPINE='https://nl.alpinelinux.org/alpine/v3.15/releases/x86_64/alpine-virt-3.15.0-x86_64.iso'
 KOLIBRIOS=''
 MINIX='git://github.com/Stichting-MINIX-Research-Foundation/minix.git'
 FREEDOS='git://github.com/FDOS/kernel.git'
@@ -42,6 +42,7 @@ echo *** misc. ***
 ftp $LIONSBOOK
 git clone $MINIX ./images/minix
 git clone $FREEDOS ./images/freedos
+ftp $ALPINE -o ./images/alpine-virt-3.15.0-x86_64.iso
 
 touch liens_utiles.txt
 for i in $LIENSUTILES
