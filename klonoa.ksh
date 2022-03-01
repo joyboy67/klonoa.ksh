@@ -40,8 +40,8 @@ yarn global add vue nuxt netlistsvg #https://github.com/nturley/netlistsvg
 echo *** misc. ***
 
 ftp $LIONSBOOK
-git clone $MINIX ./images
-git clone $FREEDOS ./images
+git clone $MINIX ./images/minix
+git clone $FREEDOS ./images/freedos
 
 touch liens_utiles.txt
 for i in $LIENSUTILES
