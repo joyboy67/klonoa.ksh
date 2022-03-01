@@ -26,7 +26,7 @@ echo *** Installation des paquets ***
 pkg_add -vmzl paquets.txt
 git clone $OPENTOONZ ./bin
 git clone $ORCA ./bin
-cd bin/Orca-c && make && ln -s ~/orca build/orca && cd ~ 
+cd bin/Orca-c && make && mv build/orca ~/bin/orca && cd ~ 
 
 echo *** Installation des gems ruby ***
 
