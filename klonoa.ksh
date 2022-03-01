@@ -13,6 +13,7 @@ PLAN9=''
 9LIB='https://github.com/9fans/plan9port'
 JPEGTURBO=''
 SuperLU=''
+ORCA='git://github.com/hundredrabbits/Orca.git'
 OPENTOONZ='git://github.com/morevnaproject-org/opentoonz.git'
 LIONSBOOK='http://www.lemis.com/grog/Documentation/Lions/book.pdf'
 LIENSUTILES=('https://framalibre.org/annuaires/cr%C3%A9ation', 'https://www.openbsd.org/', 'https://wiki.openbsd.fr.eu.org/doku.php/tips/kit-survie',
@@ -24,6 +25,7 @@ echo *** Installation des paquets ***
 
 pkg_add -vmzl paquets.txt
 git clone $OPENTOONZ ./bin
+git clone $ORCA ./bin
 
 echo *** Installation des gems ruby ***
 
