@@ -51,4 +51,4 @@ done
 
 ftp $LIONSBOOK
 
-echo *** Installation de Klonoa terminé! ***
+echo *** Klonoa terminé! ***
