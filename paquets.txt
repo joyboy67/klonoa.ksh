@@ -46,3 +46,4 @@ qemu--
 neofetch--
 duf--
 feh--
+postgresql-server--
