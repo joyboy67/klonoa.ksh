@@ -31,3 +31,6 @@ libreoffice--
 emacs--
 vim--
 geany--
+nmap--
+wireshark--
+kicad--
