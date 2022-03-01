@@ -11,7 +11,7 @@ OpenBSD & Plan9 = <3
 ## Usage
 
 ```
-ftp https://github.com/joyboy67/klonoa.ksh klonoa
+git clone git://github.com/joyboy67/klonoa.ksh.git klonoa
 cd klonoa
 ./klonoa.ksh
 ```
