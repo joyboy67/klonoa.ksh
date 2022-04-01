@@ -49,3 +49,5 @@ feh--
 postgresql-server--
 electron--
 portmidi--
+xdotool--
+xbindkeys--
