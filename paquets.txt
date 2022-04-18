@@ -53,3 +53,4 @@ xdotool--
 xbindkeys--
 fuse--
 hotplug-diskmount--
+cups--
