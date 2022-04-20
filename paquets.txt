@@ -54,4 +54,5 @@ xbindkeys--
 fuse--
 hotplug-diskmount--
 cups--
+sbcl--
 noto-cjk--
