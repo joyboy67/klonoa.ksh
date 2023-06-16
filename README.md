@@ -4,7 +4,7 @@ Script de personnalisation orienté #FAO [Fabrication Assistée par Ordinateur] 
 
 Pour les créateurs, entrepreneurs, artistes & geeks ⚡
 
-OpenBSD** + Isotop* + Klonoa (+ Plan9) = <3
+OpenBSD**->Isotop*->Klonoa->(Plan9_lib) = <3
 
 
 
