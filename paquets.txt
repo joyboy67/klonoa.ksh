@@ -57,3 +57,4 @@ cups--
 sbcl--
 noto-cjk--
 inotify-tools--
+clojure--
