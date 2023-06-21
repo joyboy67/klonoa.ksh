@@ -1,6 +1,7 @@
 git--
 ruby--
 node--
+postgresql-server--
 cmake--
 9libs--
 plan9port--
@@ -46,7 +47,6 @@ qemu--
 neofetch--
 duf--
 feh--
-postgresql-server--
 electron--
 portmidi--
 xdotool--
