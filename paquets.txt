@@ -58,3 +58,4 @@ sbcl--
 noto-cjk--
 inotify-tools--
 clojure--
+scheme48--
