@@ -60,3 +60,5 @@ inotify-tools--
 clojure--
 scheme48--
 chibi-scheme--
+zip--
+unzip--
